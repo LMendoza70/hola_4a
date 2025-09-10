@@ -14,5 +14,9 @@ class arrays {
             println("La calificacion :${x} es  : ${c}")
             x++
         }
+
+        for(i in 0 until calificaciones.size){
+            println("la calificacion en la posision  ${i} es ${calificaciones[i]}")
+        }
     }
 }
